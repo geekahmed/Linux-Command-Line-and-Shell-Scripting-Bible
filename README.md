@@ -5,6 +5,7 @@ Contributions: Issues, comments and pull requests are super welcome 😃
 - [Table of Contents](#table-of-contents)
 - [Introduction](#introduction)
 - [Chapter 1. Starting with Linux Shells](#chapter-1-starting-with-linux-shells)
+- [Chapter 2. Getting to the Shell](#chapter-2-getting-to-the-shell)
 <!-- /TOC -->
 
 # Introduction
@@ -98,3 +99,18 @@ Welcome to the fourth edition of Linux Command Line and Shell Scripting Bible. L
 		- Linux Mint
 		- Puppy Linux
 
+# Chapter 2. Getting to the Shell
+- Before the days of graphical desktops, the only way to interact with a Unix system was through a text command-line interface (CLI) provided by the shell.
+- One way to get to a CLI is to access the Linux system via text mode. This provides nothing more than a simple shell CLI on the monitor, just like the days before graphical desktops.
+- When the Linux system starts, it automatically creates several virtual consoles.
+	- A virtual console is a terminal session that runs in Linux system memory.
+- A terminal emulation package simulates working on a console terminal but within a desktop graphical window.
+- Graphical Interface Elements:
+	- Client: An application that requests graphical services.
+	- Display Server: Element that manages the display (screen) and the input devices (keyboard, mouse, touch screen).
+	- Window Manager: Element that adds borders to windows and provides features to move and manage windows.
+	- Widgets Library: Element that adds menus and appearance items for desktop environment clients.
+- tty stands for teletypewriter. Teletypewriter is an old term, indicating a machine used for sending messages.
+- Within the Linux virtual console, you do not have the ability to run any graphical programs.
+- GNOME Terminal is the GNOME Shell desktop environment's default terminal emulator.
+	- Used by: Red Hat Enterprise Linux (RHEL), CentOS, and Ubuntu.
